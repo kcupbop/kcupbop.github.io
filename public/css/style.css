@@ -1,0 +1,91 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+body,
+html {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+/* .bgimg {
+  background-image: url("../images/cupbop1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+} */
+.bgimg {
+  min-height: 650px;
+}
+.pointer {
+  cursor: pointer;
+}
+.padding-off {
+  padding: 0;
+}
+.social-icon {
+  margin: 0 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a.nav-text {
+  text-decoration: none;
+}
+
+nav.nav-wrapper {
+  height: 60px;
+  background: #F7F7F7;
+  text-align: center;
+  position: relative;
+}
+
+ul.nav-menu {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+}
+ul.nav-menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+img.nav-image {
+  display: block;
+  margin-top: 24px;
+}
+
+a.nav-text {
+  font: 400 1rem/60px 'Lato';
+  color: #779098;
+  display: inline-block;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+a.nav-text:hover span {
+  top: -100%;
+}
+a.nav-text span {
+  display: block;
+  height: 100%;
+  position: relative;
+  top: 0%;
+  transition: top 0.45s cubic-bezier(0.3, 0.1, 0.15, 1.5);
+}
+a.nav-text .left {
+  color: #f44336;
+}
+a.nav-text .right {
+  color: #2196f3;
+}
+
+.bottom-border {
+  height: 4px;
+  background: -moz-linear-gradient(left, #EF4F50 0%, #00D2E0 100%);
+  background: -webkit-linear-gradient(left, #EF4F50 0%, #00D2E0 100%);
+  background: -o-linear-gradient(left, #EF4F50 0%, #00D2E0 100%);
+  background: -ms-linear-gradient(left, #EF4F50 0%, #00D2E0 100%);
+  background: linear-gradient(to right, #ef4f50 0%, #00d2e0 100%);
+}
