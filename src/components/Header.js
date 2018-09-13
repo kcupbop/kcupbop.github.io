@@ -1,26 +1,28 @@
 import React from 'react';
 import BackgroundSlideshow from 'react-background-slideshow';
 
-import image1 from '../images/cupbop1.jpg';
-import image2 from '../images/cupbop2.jpg';
-import image3 from '../images/store.jpg';
-import image4 from '../images/store1.jpg';
+const imageArray = [
+  'https://s19.postimg.cc/vf8r099gz/ORG_DSC08287.jpg',
+  'https://s19.postimg.cc/697ssz5hf/ORG_DSC08270.jpg',
+  'https://s19.postimg.cc/whixibupv/ORG_DSC08281.jpg',
+  'https://s19.postimg.cc/jq4rbu837/ORG_DSC08272.jpg',
+  'https://s19.postimg.cc/j5ubmueib/ORG_DSC08299.jpg',
+  'https://s19.postimg.cc/k2w5ifirn/ORG_DSC08320.jpg',
+  'https://s19.postimg.cc/nz9hegthf/ORG_DSC08327.jpg',
+  'https://s19.postimg.cc/nmi37sis3/ORG_DSC08344.jpg',
+  'https://s19.postimg.cc/6lz6z4l6b/ORG_DSC08342.jpg',
+  'https://s19.postimg.cc/7gqbywaoz/ORG_DSC08296.jpg'
+]
 
 const Header = () => {
   return (
-    <div className="bgimg w3-display-container" id="home" style={{marginTop: '64px'}}>
-      {/* <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-        <span className="w3-tag w3-large">Open from 11:30am to 2:00am</span>
-      </div>
-      <div className="w3-display-middle w3-center">
-        <span className="w3-text-white w3-jumbo">Korean
-          <br/>
-          CUP BOP</span>
-      </div>
-      <div className="w3-display-bottomright w3-center w3-padding-large">
-        <span className="w3-tag w3-large">519 E 6th St. Austin, TX 78701</span>
-      </div> */}
-      <BackgroundSlideshow images={[ image1, image2, image3, image4 ]} animationDelay='5000'/>
+    <div
+      className="bgimg w3-display-container"
+      id="home"
+      style={{
+      marginTop: '64px'
+    }}>
+      <BackgroundSlideshow images={imageArray}/>
     </div>
   );
 };

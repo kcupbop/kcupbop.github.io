@@ -33,7 +33,11 @@ const Nav = () => {
           </li>
           <li className="nav-menu">
             <a href='#home' className="nav-text">
-              <img className="nav-image" src='https://s.cdpn.io/47585/sdlogo.svg' alt="logo"/>
+              <img
+                className="nav-image"
+                src='https://cdn0.iconfinder.com/data/icons/cafe-bar-restaurant/100/noodles_2-512.png'
+                width="20"
+                alt="logo"/>
             </a>
           </li>
           <li className="nav-menu">
